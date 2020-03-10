@@ -15,7 +15,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Container>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
+        <Image imageName="gatsby-astronaut.png"/>
       </div>
       <ul>{/* show json data here */}</ul>
     </Container>

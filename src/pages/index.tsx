@@ -1,25 +1,45 @@
 import React from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import List from "../components/List/List"
 
 const Container = styled.div`
-  max-width: 1000px;
+  max-width: 60%;
+  margin: 0 auto;
 `
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <Container>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image imageName="gatsby-astronaut.png"/>
-      </div>
-      <ul>{/* show json data here */}</ul>
-    </Container>
-  </Layout>
-)
-
+const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      allWashroomListJson {
+        edges {
+          node {
+            id
+            evaluation
+            isFree
+            isWifi
+            keyNeeded
+            name
+            thumbnail
+          }
+        }
+      }
+    }
+  `)
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <Container>
+        <ul>
+          {data.allWashroomListJson.edges.map((washroom, index) => {
+            return <List data={washroom.node} index={index} key={index} />
+          })}
+        </ul>
+      </Container>
+    </Layout>
+  )
+}
 export default IndexPage

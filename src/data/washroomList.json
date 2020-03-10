@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Waterfront station Public washroom",
+    "name": "Waterfront station",
     "numberOfWashroom": {
       "urinate": 2,
       "defecate": 3
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "name": "Burrad station Public washroom",
+    "name": "Burrad station",
     "numberOfWashroom": {
       "urinate": 2,
       "defecate": 3
@@ -22,12 +22,12 @@
     "keyNeeded": false,
     "isFree": true,
     "isWifi": false,
-    "thumbnail": "https://www.barbourproductsearch.info/WashroomDesign%20copy-file097545.jpg",
+    "thumbnail": "https://images.wisegeek.com/sink-toilet-rolls-and-a-toilet.jpg",
     "evaluation": 3
   },
   {
     "id": 3,
-    "name": "Granville station Public washroom",
+    "name": "Pacific Centre",
     "numberOfWashroom": {
       "urinate": 2,
       "defecate": 3
@@ -35,7 +35,20 @@
     "keyNeeded": false,
     "isFree": true,
     "isWifi": false,
-    "thumbnail": "https://www.barbourproductsearch.info/WashroomDesign%20copy-file097545.jpg",
+    "thumbnail": "https://www.builddirect.com/blog/wp-content/uploads/2019/08/shutterstock_1236809512.jpg",
     "evaluation": 2
+  },
+  {
+    "id": 4,
+    "name": "Granville station",
+    "numberOfWashroom": {
+      "urinate": 4,
+      "defecate": 2
+    },
+    "keyNeeded": true,
+    "isFree": false,
+    "isWifi": false,
+    "thumbnail": "https://www.besthealthmag.ca/wp-content/uploads/sites/16/2016/01/washroom4.jpg",
+    "evaluation": 4
   }
 ]

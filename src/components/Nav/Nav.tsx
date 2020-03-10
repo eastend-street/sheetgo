@@ -6,6 +6,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   padding: 1rem 0;
+  background-color: #fff;
   ul {
     width: 30%;
     display: flex;

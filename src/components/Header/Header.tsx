@@ -6,6 +6,7 @@ const StyledHeader = styled.header`
   display: flex;
   justify-content: center;
   padding: 1rem 0;
+  background-color: #fff;
 `
 
 const StyledLink = styled(Link)`

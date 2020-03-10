@@ -12,6 +12,7 @@ import theme from "../styles/Theme"
 import GlobalStyle from "../styles/GlobalStyle"
 
 import Header from "./Header/Header"
+import Nav from "./Nav/Nav"
 import Footer from "./Footer/Footer"
 
 type LayoutProps = {
@@ -33,6 +34,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Header siteTitle={data.site.siteMetadata.title} />
+      <Nav />
       <main>{children}</main>
       <Footer siteTitle={data.site.siteMetadata.title} />
     </ThemeProvider>

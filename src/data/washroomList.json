@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Waterfront station Public washroom",
+    "numberOfWashroom": {
+      "urinate": 2,
+      "defecate": 3
+    },
+    "keyNeeded": false,
+    "isFree": true,
+    "isWifi": false,
+    "thumbnail": "https://www.barbourproductsearch.info/WashroomDesign%20copy-file097545.jpg",
+    "evaluation": 4
+  },
+  {
+    "id": 2,
+    "name": "Burrad station Public washroom",
+    "numberOfWashroom": {
+      "urinate": 2,
+      "defecate": 3
+    },
+    "keyNeeded": false,
+    "isFree": true,
+    "isWifi": false,
+    "thumbnail": "https://www.barbourproductsearch.info/WashroomDesign%20copy-file097545.jpg",
+    "evaluation": 3
+  },
+  {
+    "id": 3,
+    "name": "Granville station Public washroom",
+    "numberOfWashroom": {
+      "urinate": 2,
+      "defecate": 3
+    },
+    "keyNeeded": false,
+    "isFree": true,
+    "isWifi": false,
+    "thumbnail": "https://www.barbourproductsearch.info/WashroomDesign%20copy-file097545.jpg",
+    "evaluation": 2
+  }
+]
